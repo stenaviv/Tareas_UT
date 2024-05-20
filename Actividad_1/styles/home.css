@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background-color: #232323;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 150px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+p {
+    margin-top: -45px;
+    font-size: 12px;
+}
+
+.home {
+    color: #FFFFFF;
+    background-color: #191919;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.lineasxd{
+    padding: 5px;
+}

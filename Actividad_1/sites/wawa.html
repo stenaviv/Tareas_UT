@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miau</title>
+    <link rel="stylesheet" href="../styles/wawa.css">
+    <link rel="ICON" href="../favicon.png">
+</head>
+<body>
+    <div>
+        <h1>WAWA CAT</h1>
+        <img src="../assets/cats/wawa.png">
+    </div>
+    <audio id="audio" loop="true" autoplay="true">
+        <source src="../assets/cats/wawasong.ogg" type="audio/ogg">
+        <source src="../assets/cats/wawasong.mp3" type="audio/mpeg">
+        <source src="../assets/cats/wawasong.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+<script type="text/javascript">
+    document.body.style.backgroundColor = 'black';
+
+    function impulseBG() {
+        document.body.style.transitionDuration = '0s';
+        document.body.style.backgroundColor = 'white';
+        setTimeout(() => {
+            document.body.style.transitionDuration = '0.65s';
+            document.body.style.backgroundColor = 'black';
+        },  1);
+    }
+
+    let songPos = 0
+    function setTiming() {
+        songPos ++;
+        if (songPos ===1 || songPos === 5 || songPos >=9) {
+            impulseBG();
+        }
+        console.log(songPos);
+    }
+
+    setInterval(setTiming,779)
+</script>
+</html>

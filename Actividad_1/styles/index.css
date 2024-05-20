@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color: white;
+}
+
+a :hover {
+    border: 5px solid white;
+}
