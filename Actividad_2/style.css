@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.h1, h2, h3, h4, h5, h6, p, body {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header-bg {
+    background-image: url('assets/materialshapes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 6em;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 2em;
+}
+
+.about {
+    background-image: url('assets/aboutbg.png');
+    background-color: #3c112a;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 2em;
+    margin-right: 60px;
+}
+
+.favorites {
+    padding: 20px;
+    margin: 70px;
+    border-radius: 25px;
+}
+
+.favorites h2 {
+    font-size: 2em;
+    margin-left: 100px;
+}
+
+.favorites .games {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.5em;
+}
+
+.games .game {
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.favorites .game img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 25px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contact-bg{
+    background-color: #212328;
+    padding-bottom: 30px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+.contact label {
+    font-size: 0.8em;
+}
+
+.contact input {
+    padding: 10px;
+    font-size: 0.5em;
+    height: 18px;
+    width: 500px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact div {
+    margin: 10px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007cf0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #005bb5;
+}
